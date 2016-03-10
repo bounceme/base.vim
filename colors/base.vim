@@ -11,7 +11,7 @@ endif
 
 let g:colors_name = "base"
 
-hi Cursor ctermfg=0 ctermbg=15 cterm=NONE guifg=#000000 guibg=#ffffff gui=NONE
+hi Cursor ctermfg=16 ctermbg=231 cterm=NONE guifg=#000000 guibg=#ffffff gui=NONE
 hi Visual ctermfg=NONE ctermbg=238 cterm=NONE guifg=NONE guibg=#001bb3 gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=233 cterm=NONE guifg=NONE guibg=#151515 gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=233 cterm=NONE guifg=NONE guibg=#151515 gui=NONE
@@ -23,12 +23,12 @@ hi StatusLine ctermfg=237 ctermbg=250 cterm=bold guifg=#d3d3d3 guibg=#3d3d3d gui
 hi StatusLineNC ctermfg=252 ctermbg=237 cterm=NONE guifg=#d3d3d3 guibg=#3d3d3d gui=NONE
 hi Pmenu ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi PmenuSel ctermfg=NONE ctermbg=19 cterm=NONE guifg=NONE guibg=#001bb3 gui=NONE
-hi IncSearch ctermfg=0 ctermbg=211 cterm=NONE guifg=#000000 guibg=#ff9e7b gui=NONE
+hi IncSearch ctermfg=16 ctermbg=211 cterm=NONE guifg=#000000 guibg=#ff9e7b gui=NONE
 hi Search ctermfg=NONE ctermbg=66 cterm=NONE guifg=NONE guibg=NONE gui=underline
 hi Directory ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi Folded ctermfg=208 ctermbg=0 cterm=NONE guifg=#ff7d27 guibg=#000000 gui=NONE
+hi Folded ctermfg=208 ctermbg=16 cterm=NONE guifg=#ff7d27 guibg=#000000 gui=NONE
 
-hi Normal ctermfg=252 ctermbg=0 cterm=NONE guifg=#d3d3d3 guibg=#000000 gui=NONE
+hi Normal ctermfg=252 ctermbg=16 cterm=NONE guifg=#d3d3d3 guibg=#000000 gui=NONE
 hi Boolean ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi Character ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi Comment ctermfg=208 ctermbg=NONE cterm=NONE guifg=#ff7d27 guibg=NONE gui=NONE
@@ -39,8 +39,8 @@ hi DiffAdd ctermfg=252 ctermbg=64 cterm=bold guifg=#d3d3d3 guibg=#3e7b05 gui=bol
 hi DiffDelete ctermfg=88 ctermbg=NONE cterm=NONE guifg=#830000 guibg=NONE gui=NONE
 hi DiffChange ctermfg=252 ctermbg=17 cterm=NONE guifg=#d3d3d3 guibg=#102544 gui=NONE
 hi DiffText ctermfg=252 ctermbg=24 cterm=bold guifg=#d3d3d3 guibg=#204a87 gui=bold
-hi ErrorMsg ctermfg=15 ctermbg=88 cterm=NONE guifg=#ffffff guibg=#990000 gui=NONE
-hi WarningMsg ctermfg=15 ctermbg=88 cterm=NONE guifg=#ffffff guibg=#990000 gui=NONE
+hi ErrorMsg ctermfg=231 ctermbg=88 cterm=NONE guifg=#ffffff guibg=#990000 gui=NONE
+hi WarningMsg ctermfg=231 ctermbg=88 cterm=NONE guifg=#ffffff guibg=#990000 gui=NONE
 hi Float ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi Function ctermfg=117 ctermbg=NONE cterm=NONE guifg=#81cef9 guibg=NONE gui=NONE
 hi Identifier ctermfg=120 ctermbg=NONE cterm=NONE guifg=#94fe9a guibg=NONE gui=NONE
@@ -109,9 +109,9 @@ hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 
 hi link jsTypes Number
 hi jsContext ctermfg=195
-hi SneakPluginTarget ctermfg=1 guifg=232
+hi SneakPluginTarget ctermfg=88 guifg=232
 hi SneakStreakMask guifg=#737373 ctermfg=243 guibg=Black ctermbg=16 gui=NONE cterm=NONE term=NONE
-hi SneakStreakTarget ctermfg=1 guifg=232
+hi SneakStreakTarget ctermfg=88 guifg=232
 hi link SneakStreakStatusLine StatusLineNC
 hi link netrwMarkFile string
 hi signcolumn ctermbg=234
